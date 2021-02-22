@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if curl http://serve:5000 | grep site/; then
+if curl http://serve:5000 | grep site; then
     echo "Site Exists.\n Site Test Passes. \n"
     exit 0
 else
